@@ -1,6 +1,6 @@
 | | |
 | - | - |
-| **Full title** | Stop Reading the News  |
+| **Full title** | Stop Reading the  News  |
 | **Authors** | Rolf Dobelli |
 | **Publication Year** | 2020 |
 | **Recommended By** | |
