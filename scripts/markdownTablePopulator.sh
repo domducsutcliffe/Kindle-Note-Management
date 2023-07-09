@@ -13,11 +13,8 @@ do
     if [[ $line == "# "* ]]
     then
         # Extract title and author
-        # Remove the '# ' from the start of the line
-        line=${line:2}
-        # Use the ' by ' as the separator between title and author
-        title=${line%%" - by "*}
-        author=${line#*" - by "}
+        IFS=' by ' read -r title author <<< "$line"
+        title=${title:2}
     elif [[ $line == "* Notes from:"* ]]
     then
         # Extract reading dates
@@ -38,5 +35,4 @@ echo "| **Recommended By** | |" >> "$filename"_table.md
 echo "| **Status** | #book/status/unread |" >> "$filename"_table.md
 echo "| **Reading Dates** | $reading_dates |" >> "$filename"_table.md
 echo "| **Initial Thoughts** | |" >> "$filename"_table.md
-echo "**Full Notes, including quotes**" >> "$filename"_table.md
-echo "${notes//<br>/\\n}" >> "$filename"_table.md
+echo "| **Full Notes, including quotes** | $notes |" >> "$filename"_table.md
