@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# Read the file and replace newline characters with <br>
+# Navigate to the required directory
 cd ..
 cd imports
-sed 's/$/<br>/' StopReadingtheNews.md > temp.md
-
+# Replace all newline characters with <br> and output to a single line
+echo $(tr '\n' '<br>' < StopReadingtheNews.md) > StopReadingtheNews.md
