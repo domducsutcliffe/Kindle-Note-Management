@@ -13,5 +13,6 @@ tags:
 | **Recommended By** |  |
 | **Status** | #book/status/unread |
 | **Reading Dates** |  |
-
+| **Initial Thoughts** |  |
+| **Full Notes, including qoutes** |  |
 
