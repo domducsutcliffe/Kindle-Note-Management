@@ -3,7 +3,7 @@ tags:
 - book
 ---
 
-# Stop Reading the News
+# Title
 
 | | |
 | - | - |
@@ -14,5 +14,5 @@ tags:
 | **Status** | #book/status/unread |
 | **Reading Dates** |  |
 | **Initial Thoughts** |  |
-| **Full Notes, including qoutes** | |
+| **Full Notes, including qoutes** |  |
 
