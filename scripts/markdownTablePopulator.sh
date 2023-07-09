@@ -12,9 +12,12 @@ while IFS= read -r line
 do
     if [[ $line == "# "* ]]
     then
-        # Extract title and author
-        IFS=' by ' read -r title author <<< "$line"
-        title=${title:2}
+        # Remove leading '# ' from line
+        line=${line:2}
+
+        # Split at the last occurrence of ' by '
+        title=${line% by *}
+        author=${line##* by }
     elif [[ $line == "* Notes from:"* ]]
     then
         # Extract reading dates
