@@ -1,6 +1,9 @@
 # Project Title
 
-One-paragraph project description goes here.
+A simple pair of scripts for automating kindle note management. 
+
+Project has been briefly tested on Kindle Oasis 2019
+
 
 ## Table of Contents
 
