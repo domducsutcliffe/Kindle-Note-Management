@@ -1,7 +1,7 @@
 | | |
 | - | - |
-| **Full title** | Stop Reading the News - Rolf Dobelli by Rolf Dobelli |
-| **Authors** | Stop Reading the News - Rolf Dobelli by Rolf Dobelli |
+| **Full title** | Stop Reading the News  |
+| **Authors** | Rolf Dobelli |
 | **Publication Year** | |
 | **Recommended By** | |
 | **Status** | #book/status/unread |
