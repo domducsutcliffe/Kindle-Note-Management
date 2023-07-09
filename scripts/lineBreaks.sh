@@ -4,5 +4,6 @@
 cd ..
 cd imports
 
-# Replace all newline characters with <br> and insert a break at every '<<'
-echo $(tr '\n' '<br>' < StopReadingtheNews.md | sed 's/<</<br><</g') > StopReadingtheNews.md
+# Replace all newline characters with <br>, insert a break at every '<<'
+# then remove every instance of '<' and '>' where they are not part of '<br>'
+echo $(tr '\n' '<br>' < StopReadingtheNews.md | sed 's/<</<br><</g' | perl -pe 's/<(?!br>|<)//g; s/(?!<)>//g') > StopReadingtheNews_processed.md
