@@ -18,15 +18,12 @@ A pair of scripts for importing kindle notes and reformating them into markdown.
 
 ## Features
 
-List the key features and functionalities of your project. Use bullet points to make it easy to read and understand.
-
 - Imports the notes
 - Formats the Books metadata into a markdown table describing the book
 - Formats the notes taken in markdown to distinguish between the text and the user's input
 
 ## Installation and Usage
 
-Provide instructions on how to install and set up your project. Be clear and provide any dependencies or prerequisites needed.
 
 1. Install the clippy plugin https://github.com/dangbert/clippy-kindle and related Python dependencies
 2. Change the locations in the kindleNotesScript script so they align with where you wish to store the imports of Kindle files
@@ -36,12 +33,3 @@ Provide instructions on how to install and set up your project. Be clear and pro
 6. Rename to remove any spaces e.g. Fluent Forever.md --> fluentForever.md
 7. Run the script with the raw kindle note as an argument $bash markdownNotesFormatter.sh fluentForever.md
 8. Check the output in the imports file and drag over to the notes.
-
-
-
-## Usage
-
-Explain how to use your project. Provide examples or code snippets if necessary. Show the basic commands or steps to get started.
-
-```shell
-$ command-example --option
