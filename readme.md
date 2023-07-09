@@ -1,4 +1,4 @@
-# Project Title
+# Kindle Note Management Tool
 
 A simple pair of scripts for automating kindle note management. 
 
