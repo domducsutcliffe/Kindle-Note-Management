@@ -38,4 +38,5 @@ echo "| **Recommended By** | |" >> "$filename"_table.md
 echo "| **Status** | #book/status/unread |" >> "$filename"_table.md
 echo "| **Reading Dates** | $reading_dates |" >> "$filename"_table.md
 echo "| **Initial Thoughts** | |" >> "$filename"_table.md
-echo "| **Full Notes, including quotes** | $notes |" >> "$filename"_table.md
+echo "**Full Notes, including quotes**" >> "$filename"_table.md
+echo "${notes//<br>/\\n}" >> "$filename"_table.md
