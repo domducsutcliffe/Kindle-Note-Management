@@ -135,5 +135,4 @@ tags:
 * Thanks are due to Koni -- [loc 1471]<br>
 <br>
 > Test -- [loc 1472]<br>
-<br>
- |
+<br> |
