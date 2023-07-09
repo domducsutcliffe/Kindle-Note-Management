@@ -14,8 +14,5 @@ tags:
 | **Status** | #book/status/unread |
 | **Reading Dates** |  |
 | **Initial Thoughts** |  |
-| **Full Notes** | <pre>Stop Reading the News - Rolf Dobelli by Rolf Dobelli
-* Notes from: July 05, 2023 - July 09, 2023
----
-* Engage with content that is truly relevant and overlaps with your circle of competence. -- [loc 298]</pre> |
+| **Full Notes, including qoutes** | |
 
