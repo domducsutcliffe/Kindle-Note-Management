@@ -26,8 +26,7 @@ A pair of scripts for importing kindle notes and reformating them into markdown.
 
 
 1. Install the clippy plugin https://github.com/dangbert/clippy-kindle and decide how you wish to install. To align with how I did it create a folder in 'user/applications' called 'pythonScripts' and place 'clippy-kindle-r1.1' in there.
-2. ```shell
-$ git clone https://github.com/domducsutcliffe/Kindle-Note-Management.git
+2. $git clone https://github.com/domducsutcliffe/Kindle-Note-Management.git
 3. Change the locations in the kindleNotesScript script so they align with where you put the clippy application and where you wish to store the imported notes
 4. Plugin in your Kindle and wait for five seconds
 5. In terminal run 
