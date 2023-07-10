@@ -33,21 +33,24 @@ $ ./Kindle-Note-Management/kindleNotesScript.sh
 ```
 
 
-Change the locations in the kindleNotesScript.sh script to match the location of the clippy application and the desired storage location for imported notes.
-Plug in your Kindle and wait for five seconds.
-In the terminal, make the scripts executable:
+2. Change the locations in the kindleNotesScript.sh script to match the location of the clippy application and the desired storage location for imported notes.
+   Plug in your Kindle and wait for five seconds.
+   In the terminal, make the scripts executable:
+```console
 $ chmod +x Kindle-Note-Management/kindleNotesScript.sh && chmod +x Kindle-Note-Management/markdownNotesFormatter.sh
-
+```
 Run the kindleNotesScript.sh script:
+```console
 $ ./Kindle-Note-Management/kindleNotesScript.sh
+```
 
 This should import all the notes from your Kindle, with each note being a Markdown file in the format $nameOfBook by $nameOfAuthor.
 
 Drag the notes you wish to reformat from the imported files to a clone of this repository and place them in the imports folder.
 Rename the notes to remove any spaces, e.g., Fluent Forever.md -> fluentForever.md.
 Run the markdownNotesFormatter.sh script with the raw Kindle note as an argument
-
+```console
 $ ./Kindle-Note-Management/markdownNotesFormatter.sh fluentForever.md
-
+```
 Check the output in the imports folder and drag them over to your notes.
 
